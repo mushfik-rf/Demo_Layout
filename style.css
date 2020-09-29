@@ -1,0 +1,131 @@
+.container{
+	border: 4px solid ;
+	width:80% ;
+	margin: 0 auto;
+	height:700px;
+
+}
+.header{
+	border: 3px solid #800000;
+	width: 80% ;
+	margin: 0 auto;
+	text-align:center ;
+	padding:20px 0 20px 0;
+	height:60px;
+	margin-left:14% ;
+	margin-top:5px;
+}
+.header h1{
+	color: red;
+	
+	display: inline;
+	text-align: center;
+}
+.container .logo{
+	float:left;
+	border: 4px solid #8B008B;
+	width:12%;
+	height:146px;
+	text-align:center;
+	margin-left:10px ;
+	margin-top:6px ;
+}
+.container .logo h3{
+	padding:10%;
+}
+.head-1{
+	margin-left:10px ;
+}
+.menu{
+	border:2px solid;
+	width: 80%;
+	margin: 10px auto;
+	margin-left:14%;
+}
+.menu ul{
+	text-align:right;
+}
+.menu ul li{
+	list-style:none;
+	display:inline-block;
+	margin-left:20px;
+	margin-right:10px;
+	
+}
+a{
+	text-decoration: none;
+	color: green;
+}
+a:hover{
+	background: yellow ;
+	transition: 800ms;
+}
+.body{
+	width:90%;
+	border: 2px solid;
+	height:300px;
+	margin: 0 auto;
+	display: flex;
+}
+.b1{
+	border:2px solid red;
+	width:50%;
+	margin:5px 10px 5px 10px;
+	height:95%;
+	float:left;
+}
+.b2{
+	border:2px solid blue;
+	width:50%;
+	margin:5px 10px 5px 10px;
+	height:95%;	
+}
+.content{
+	display: flex;
+	border: 3px solid blue;
+	margin:0 auto;
+	height:20%;
+	width:90%;
+	margin-top:10px;
+}
+.sec1{
+	border:2px solid #111;
+	width:15%;
+	margin:10px;
+}
+.sec2{
+	border:2px solid #808000;
+	width:15%;
+	margin:10px;
+}
+.sec3{
+	border:2px solid #A52A2A;
+	width:15%;
+	margin:10px;
+}
+.sec4{
+	border:2px solid green;
+	width:15%;
+	margin:10px;
+}
+.sec5{
+	border:2px solid #FF0;
+	width:15%;
+	margin:10px;
+}
+.sec6{
+	border:2px solid green;
+	width:15%;
+	margin:10px;
+}
+.footer{
+	width:90%;
+	margin:0 auto;
+	border:3px solid red;
+	height:4%;
+	margin-top:9px;
+}
+@media (max-width:700px) {
+	.container{
+	background:pink;}
+}
